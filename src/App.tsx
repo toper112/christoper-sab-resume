@@ -1,7 +1,8 @@
 import StarRating from "./StarRating";
-import { MaleIcon, FemaleIcon } from "./components/Icons";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import './App.css';
+import MaleIcon from './components/male.svg';
+import Female from './components/female.svg';
 
 const App = () => {
   return (
@@ -133,7 +134,7 @@ const App = () => {
           <div className="ref-card">
 
             <div className="pfp">
-              <MaleIcon />
+              <img src={MaleIcon} alt="Male Icon" />
             </div>
             <div className="desc">
               <span className="name">Benjie Lenteria</span>
@@ -147,7 +148,7 @@ const App = () => {
           <div className="ref-card">
 
             <div className="pfp">
-              <FemaleIcon />
+              <img src={Female} alt="Female Icon" />
             </div>
             <div className="desc">
               <span className="name">Sheryl Enriquez</span>
@@ -160,7 +161,7 @@ const App = () => {
           <div className="ref-card">
 
             <div className="pfp">
-              <FemaleIcon />
+              <img src={Female} alt="Female Icon" />
             </div>
             <div className="desc">
               <span className="name">Josefina J. Pangan</span>

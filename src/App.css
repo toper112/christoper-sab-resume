@@ -118,6 +118,12 @@ section {
   height: 100px;
 }
 
+.ref-card .pfp img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
 .ref-card .desc {
   display: flex;
   flex-direction: column;
