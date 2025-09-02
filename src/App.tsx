@@ -1,10 +1,9 @@
-import { FC } from "react";
 import StarRating from "./StarRating";
 import { MaleIcon, FemaleIcon } from "./components/Icons";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import './App.css';
 
-const App: FC = () => {
+const App = () => {
   return (
     <div className="app">
       <nav className="navbar">
